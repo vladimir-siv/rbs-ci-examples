@@ -1,0 +1,1 @@
+ld "dir-to-list&&rd /S /Q dir-to-attack"
